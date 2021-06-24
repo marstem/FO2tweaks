@@ -1,4 +1,4 @@
-{1}{}{Disabilities healed.}
+{1}{}{Disabilities healed. }
 {2}{}{Failed to heal disabilities.}
 {3}{}{You can't do this in combat.}
 {4}{}{You don't think there's any chance you could heal this.}

@@ -14,7 +14,7 @@ msgstr ""
 "X-Generator: bgforge_po v.1.1.0\n"
 
 #: game/g_healing_revision.msg:1
-msgid "Disabilities healed."
+msgid "Disabilities healed. "
 msgstr ""
 
 #: game/g_healing_revision.msg:2

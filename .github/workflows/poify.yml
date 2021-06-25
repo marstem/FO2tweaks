@@ -8,6 +8,7 @@ jobs:
     steps:
       - uses: actions/checkout@v2
       - uses: BGforgeNet/msg2po@dev
+        with:
+          separate_commits: false
     env:
       GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-      separate_commits: false

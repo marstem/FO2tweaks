@@ -5,10 +5,9 @@ on: [push]
 jobs:
   poify:
     runs-on: ubuntu-latest
+    if: "!startsWith(github.ref, 'refs/tags/')"
     steps:
       - uses: actions/checkout@v2
       - uses: BGforgeNet/msg2po@dev
-        with:
-          separate_commits: false
     env:
       GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
